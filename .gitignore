@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+*.log
+
+# Built/dist assets (this repo is source-first; deploy workflow uploads the root)
+build/
+dist/
+
+# Local env files
+.env
