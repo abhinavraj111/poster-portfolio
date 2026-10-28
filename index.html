@@ -33,70 +33,88 @@
 <div class="container">
 <header class="section--head">
 <h1>Selected Works</h1>
-<p>Each piece reflects a research-driven approach to colour, typography and spatial composition.</p>
+<p>Each piece reflects a research-driven approach to colour, typography and spatial composition. Click a card to open the full poster.</p>
 </header>
 <div class="grid">
 <article class="card">
+<a class="card--link" href="img/poster_1.svg" target="_blank" rel="noopener" aria-label="Neon Horizon by Kaito Tanaka">
 <div class="card--visual" style="background:#ff2d95;">
 <div class="card--visual--inner">
+<img class="card--img" src="img/poster_1.svg" alt="Neon Horizon by Kaito Tanaka" loading="lazy">
 <span class="card--tag">Synthwave</span>
 </div>
 </div>
+</a>
 <div class="card--body">
 <span class="card--year">2025</span>
 <h3 class="card--title">Neon Horizon</h3>
 <p class="card--artist">by Kaito Tanaka</p>
 </div>
 </article><article class="card">
+<a class="card--link" href="img/poster_2.svg" target="_blank" rel="noopener" aria-label="Matte & Rust by Elara Vane">
 <div class="card--visual" style="background:#7a5cbf;">
 <div class="card--visual--inner">
+<img class="card--img" src="img/poster_2.svg" alt="Matte & Rust by Elara Vane" loading="lazy">
 <span class="card--tag">Analog Horror</span>
 </div>
 </div>
+</a>
 <div class="card--body">
 <span class="card--year">2025</span>
 <h3 class="card--title">Matte & Rust</h3>
 <p class="card--artist">by Elara Vane</p>
 </div>
 </article><article class="card">
+<a class="card--link" href="img/poster_3.svg" target="_blank" rel="noopener" aria-label="Cinder & Steel by Marcus Reeve">
 <div class="card--visual" style="background:#e07b39;">
 <div class="card--visual--inner">
+<img class="card--img" src="img/poster_3.svg" alt="Cinder & Steel by Marcus Reeve" loading="lazy">
 <span class="card--tag">Industrial</span>
 </div>
 </div>
+</a>
 <div class="card--body">
 <span class="card--year">2024</span>
 <h3 class="card--title">Cinder & Steel</h3>
 <p class="card--artist">by Marcus Reeve</p>
 </div>
 </article><article class="card">
+<a class="card--link" href="img/poster_4.svg" target="_blank" rel="noopener" aria-label="Glass Orchard by Saoirse Lin">
 <div class="card--visual" style="background:#36d0c6;">
 <div class="card--visual--inner">
+<img class="card--img" src="img/poster_4.svg" alt="Glass Orchard by Saoirse Lin" loading="lazy">
 <span class="card--tag">Surreal</span>
 </div>
 </div>
+</a>
 <div class="card--body">
 <span class="card--year">2024</span>
 <h3 class="card--title">Glass Orchard</h3>
 <p class="card--artist">by Saoirse Lin</p>
 </div>
 </article><article class="card">
+<a class="card--link" href="img/poster_5.svg" target="_blank" rel="noopener" aria-label="Static Bloom by Yuki Hashimoto">
 <div class="card--visual" style="background:#ffb347;">
 <div class="card--visual--inner">
+<img class="card--img" src="img/poster_5.svg" alt="Static Bloom by Yuki Hashimoto" loading="lazy">
 <span class="card--tag">Cyberpunk</span>
 </div>
 </div>
+</a>
 <div class="card--body">
 <span class="card--year">2025</span>
 <h3 class="card--title">Static Bloom</h3>
 <p class="card--artist">by Yuki Hashimoto</p>
 </div>
 </article><article class="card">
+<a class="card--link" href="img/poster_6.svg" target="_blank" rel="noopener" aria-label="Frost Wire by Tomas Berg">
 <div class="card--visual" style="background:#5b7a9a;">
 <div class="card--visual--inner">
+<img class="card--img" src="img/poster_6.svg" alt="Frost Wire by Tomas Berg" loading="lazy">
 <span class="card--tag">Minimal</span>
 </div>
 </div>
+</a>
 <div class="card--body">
 <span class="card--year">2023</span>
 <h3 class="card--title">Frost Wire</h3>
@@ -149,6 +167,22 @@
 <footer class="footer">
 <p>&copy; 2026 Poster Lab. Built with HTML &amp; CSS.</p>
 </footer>
+
+<div class="lightbox" id="lightbox" hidden>
+<div class="lightbox--backdrop"></div>
+<div class="lightbox--content">
+<button class="lightbox--prev" aria-label="Previous poster">&#8249;</button>
+<button class="lightbox--next" aria-label="Next poster">&#8250;</button>
+<button class="lightbox--close" aria-label="Close">&times;</button>
+<img class="lightbox--img" src="img/poster_1.svg" alt="Neon Horizon">
+<div class="lightbox--meta">
+<span class="lightbox--idx">1 / 6</span>
+<h2 class="lightbox--title">Neon Horizon</h2>
+<p class="lightbox--artist">by Kaito Tanaka — 2025</p>
+<p class="lightbox--style">Synthwave</p>
+</div>
+</div>
+</div>
 
 <script src="js/main.js"></script>
 </body>
